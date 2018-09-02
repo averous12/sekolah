@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url(product-sans.ttf) format("truetype");
+}
+
+body  {
+    background: url(bg.jpg);
+    font-family: "Product Sans";
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    }
+
+.header {
+    background-color: black;
+    height: 100px;
+    margin-top: 0;
+    display: flex;
+    align-content: center;
+}
+.header h1 {
+    margin: auto auto;
+}
+
+.bar {
+    height: 3px;
+    background-color: white;
+}
+
+.container {
+    padding:3px;
+    margin: 15px auto 15px auto; 
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    width: 90%;
+    box-shadow: 0px 0px 20px 5px black;
+    overflow-x: hidden;
+}
+
+#jadwal {
+    display: grid;
+}
+table {
+    margin: 25px auto;
+    padding: 0;
+    width: 100%;
+}
+td {
+    padding: 5px 5px;
+    border-bottom: 1px solid grey;
+}
+th {
+    width: auto;
+    border-radius: 10px;
+    background-color: forestgreen;
+    padding: 0;
+    color: white;
+}
+.container img {
+    width: 100%;
+}
